@@ -1,0 +1,158 @@
+
+body {
+	font-family: 'Lato', sans-serif;
+	padding: 5%;
+	background-image: url("http://res.cloudinary.com/emma/image/upload/v1484705806/DD-Old-Wood-Background-22009-Edited_hus0og.jpg");
+}
+
+nav {
+	display: inline;
+}
+
+a {
+	font-size: 20px;
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: 0 0 2px 0px rgba(125, 123, 123, 0.41);
+}
+
+a:hover, a:focus {
+    color: #18bc9c;
+    box-shadow: 0 0 16px 4px rgba(24, 188, 156, 0.52);
+}
+
+#title {
+	text-align: center;
+	color: #EE964B;
+}
+
+#title:hover {
+	text-align: center;
+	box-shadow: 0 0 3pt 2pt #EBEBD3;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Yellowtail', cursive;
+	font-size: 5em;
+}
+
+.started {
+
+}
+
+.going {
+
+}
+
+.team {
+
+}
+
+.philosophy {
+
+}
+
+.contact {
+
+}
+
+li	{
+	list-style: none;
+}
+
+br {
+	clear: both;
+}
+
+ul {
+
+}
+
+li {
+	padding-top: .033%;
+}
+
+img{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	max-width: 30%;
+	float: left;
+	border-radius: 200px;
+	margin: 0 2% 2% 2%;
+	width: 25%;
+}
+
+img:hover {
+	box-shadow: 0 0 3pt 2pt #EBEBD3;
+	opacity: 20%;
+}
+
+article {
+	margin: 1.5%;
+}
+
+p {
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+fieldset {
+	border-style: solid;
+	border-width: .2em;
+	border-color: #EE964B;
+	border-radius: .5%;
+	padding: 2%;
+}
+
+legend {
+	text-align: center;
+	font-family:  'Yellowtail', cursive;
+}
+
+span#basic-addon3.input-group-addon {
+	max-width: 10%;
+	background-color: rgba(33, 95, 187, 0.63);
+	color: #18bc9b;
+	box-shadow: 3px 3px 7px 0px black;
+	width: 9em;
+}
+
+
+
+div.input-group {
+	max-width: 100%;
+	margin-bottom: 1%;
+}
+
+#form-class {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group>.btn, .input-group-btn:last-child>.dropdown-toggle, .input-group-btn:first-child>.btn:not(:first-child), .input-group-btn:first-child>.btn-group:not(:first-child)>.btn {
+	background-color: rgba(255, 255, 255, 0.18);
+	box-shadow: 3px 3px 7px 0px black;
+	width: 35em;
+	font-family: Lato, sans-serif;
+	margin-left: 1%;
+	 border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.input-group-addon:first-child {
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+
+/*media quiries*/
+
+@media screen and (max-width: 44em) {
+
+nav[role="full-horizontal"] {
+    ul > li {
+      width: 100%;
+    }
+  }
+}
