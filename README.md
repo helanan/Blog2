@@ -1,17 +1,11 @@
-#Personal blog page
+##Blog Page Style 2 Using HTML5 and CSS3 Only
 
-#Setup
+##Setup
 
-##These commands are a helpful quick start. You may choose to ignore them completely and create your own directory structure. If you choose to use this recommendation, just copy the commands below. It doesn't matter what directory you are currently in.
+###These commands are a helpful quick start. You may choose to ignore them completely and create your own directory structure. If you choose to use this recommendation, just copy the commands below. It doesn't matter what directory you are currently in.
 
-###mkdir -p ~/workspace/exercises/the-static-web/blog && cd $_
-###touch index.html
-###Instructions
+####mkdir -p ~/workspace/blogs/blog2
 
-##Build a basic blog page that has 5 articles and any random topics you want to talk about. The text can be anything, even placeholder text ( look at this lorem ipsum text generator for an example of the official unofficial gibberish of web developers everywhere ).
+###Quick About us page styled with HTML and CSS only, example of using flex-box with css and iframes. 
 
-###There should be a page header containing the blog's title.
-###There should be a page footer containing the copyright notice. View pretty much any web site to see an example.
-###Each article has a header containing a title.
-###Each article has a footer containing the author and publication date.
-###Each article has at least one section.
+![About Us](http://res.cloudinary.com/emma/image/upload/v1486009251/AboutUs_oaw2yo.jpg "About Us")
